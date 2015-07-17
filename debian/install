@@ -1,0 +1,5 @@
+composer /usr/bin
+vendor/phpmd/phpmd/src/bin/phpmd /usr/bin
+vendor/pdepend/pdepend/src/bin/pdepend /usr/bin
+nbxdebug /usr/bin
+

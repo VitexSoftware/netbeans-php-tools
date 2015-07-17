@@ -1,0 +1,15 @@
+{
+    "name": "vitexsoftware/netbeans-php-support",
+    "description": "Description of project netbeans-php-support.",
+    "authors": [
+        {
+            "name": "vitex",
+            "email": "info@vitexsoftware.cz"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpmd/phpmd" : "@stable"
+    }    
+   
+}
