@@ -1,0 +1,15 @@
+007ad4e803e9fefee2413aec81221aa1  usr/bin/composer
+738840b5d82254f193c376f65563920b  usr/bin/nbxdebug
+a865a41bc90c8ad121f6055e633f9442  usr/bin/pdepend
+e2b95df9e1bbc4fea5f67df0b4ef75af  usr/bin/php-cs-fixer
+32951c4748473fad59b783d68a4507d0  usr/bin/phpcbf
+3702a33053c2bf1f66b655ee5d6423a4  usr/bin/phpcpd
+8cf718ae140155a7b9eb2f873af0bad7  usr/bin/phpcs
+03d7894c7e261da1538ccb6fcf9ea657  usr/bin/phpmd
+cf61db7b1aedbe3ffd4c151e10428d04  usr/share/doc/netbeans-php-tools/README.Debian
+30fdf9ef6dae2eb3dc077cf734e18c0a  usr/share/doc/netbeans-php-tools/README.md
+513d91542af1466e6be63c6a45e1a408  usr/share/doc/netbeans-php-tools/changelog.gz
+99ed25ad32f24344efe5b907922486fc  usr/share/doc/netbeans-php-tools/copyright
+26f78eb5af7c771c6ac356f1494375cb  usr/share/php/Token.php
+01a19ef6137be5b95782c7ddbb84892c  usr/share/php/Token/Stream.php
+ae8459fadfe3ff3e4dfa1a51c15a3fc2  usr/share/php/Token/Stream/CachingFactory.php

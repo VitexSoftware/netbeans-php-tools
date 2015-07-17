@@ -1,5 +1,13 @@
 composer /usr/bin
-vendor/phpmd/phpmd/src/bin/phpmd /usr/bin
-vendor/pdepend/pdepend/src/bin/pdepend /usr/bin
+phpmd /usr/bin
+pdepend /usr/bin
 nbxdebug /usr/bin
+phpcs  /usr/bin
+phpcbf /usr/bin 
+php-cs-fixer /usr/bin
+phpcpd /usr/bin/
+phpunit-skelgen /usr/bin/
 
+php-token-stream/src/Token.php /usr/share/php
+php-token-stream/src/Token/*.php /usr/share/php/Token
+php-token-stream/src/Token/Stream/*.php /usr/share/php/Token/Stream

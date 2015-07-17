@@ -1,1 +1,9 @@
 /nbproject/private/
+/pdepend
+/phpcbf
+/phpcs
+/phpmd
+/composer
+/apigen
+/php-token-stream/
+/debian/netbeans-php-support/
