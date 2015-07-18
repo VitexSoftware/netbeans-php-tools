@@ -52,4 +52,5 @@ Debian package contains tools for full value PHP development using netbeans
 5) Happy coding, debugging a documenting!
  
 
-![Tools in action](netbeans-php-tools.png)
+![Tools in action](https://raw.githubusercontent.com/Vitexus/netbeans-php-tools/master/netbeans-php-tools.png)
+
