@@ -52,4 +52,4 @@ Debian package contains tools for full value PHP development using netbeans
 5) Happy coding, debugging a documenting!
  
 
-
+![Tools in action](netbeans-php-tools.png)
