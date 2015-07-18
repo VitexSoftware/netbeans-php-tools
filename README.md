@@ -1,5 +1,5 @@
 # netbeans-php-tools
-Debian package contains tools for full value PHP development using netbeans
+Debian package that contains tools for full value PHP development using netbeans
 
  * xdebug http://www.xdebug.org/
  * php Depend http://pdepend.org/
@@ -18,14 +18,16 @@ Debian package contains tools for full value PHP development using netbeans
 1) in your /etc/php/php.ini please enable all development options  
 
 
-2) install debian package:
+2)  Make your own debian package build using netbeans-php-tools.sh script
+    or install debian package by Vitex Software:
 
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
     aptitude update
     aptitude install netbeans-php-tools
 
-   Package install update file /etc/php5/mods-available/xdebug.ini by adding:
+   Package installation perform update of file 
+   /etc/php5/mods-available/xdebug.ini by adding this lines:
 
     xdebug.remote_enable = 1
     xdebug.remote_handler=dbgp
@@ -35,11 +37,12 @@ Debian package contains tools for full value PHP development using netbeans
     xdebug.file_link_format = "netbeans://%f?line=%l"
     xdebug.profiler_enable = 0
 
-   Please review & control this changes. If you are using nginx,apache or 
-   lighttpd package restart your webserver automatically. In other cases 
-   please restart your webserver by hand.
+   This may be ok for fresh system. In other cases Please review and control 
+   this changes for your current setup. 
+   If installed Nginx,apache or lighttpd package we restart your webserver 
+   automatically. In other cases please restart your webserver by hand.
 
-3) in firefox open about:config and if not exists create new boolean key
+3) in firefox open [about:config] and if not exists create new boolean key
    network.protocol-handler.expose.netbeans with false value.
    Then if you first time click on netbeans:// link in xdebug error message
    browser ask you for program for opening this type of adresses. Please choose
