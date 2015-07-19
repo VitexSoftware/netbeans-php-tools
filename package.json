@@ -1,0 +1,12 @@
+
+{
+    "name": "netbeans-php-tools",
+    "version": "0.2",
+    "url": "https://github.com/Vitexus/netbeans-php-tools/issues",
+    "email": "info@vitexsoftware.cz",
+    "repository":
+            {
+                "type": "git",
+                "url": "https://github.com/Vitexus/netbeans-php-tools.git"
+            }
+}

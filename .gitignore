@@ -7,3 +7,8 @@
 /apigen
 /php-token-stream/
 /debian/netbeans-php-support/
+/debian/netbeans-php-tools/
+/phpcpd
+/phpunit-skelgen
+/php-cs-fixer
+/debian/netbeans-php-tools.substvars
