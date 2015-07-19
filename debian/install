@@ -11,3 +11,6 @@ phpunit-skelgen /usr/bin/
 php-token-stream/src/Token.php /usr/share/php
 php-token-stream/src/Token/*.php /usr/share/php/Token
 php-token-stream/src/Token/Stream/*.php /usr/share/php/Token/Stream
+
+netbeans-php-config.zip /usr/share/doc/netbeans-php-tools
+README.md /usr/share/doc/netbeans-php-tools

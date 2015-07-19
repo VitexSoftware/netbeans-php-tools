@@ -48,11 +48,16 @@ Debian package that contains tools for full value PHP development using netbeans
    browser ask you for program for opening this type of adresses. Please choose
    /usr/bin/nbxdebug
 
-4) In netbeans (with PHP support module installed) open Tools/Options/PHP menu 
-   and try to click on all [SEARCH] buttons to locate tools on filesystem. 
-   If there is no search button installed tool is always located in /usr/bin.
+4) In first time setup use Menu/Tools/Options/Import to get options from 
+   file /usr/share/doc/netbeans-php-tools/netbeans-php-config.zip 
+   This set up PHP and Color schemes.
 
-5) Happy coding, debugging a documenting!
+   In allready configured netbeans (with PHP support module installed) open 
+   Tools/Options/PHP menu and try to click on all [SEARCH] buttons to locate 
+   tools on filesystem. If there is no search button installed tool is always 
+   located in /usr/bin.
+
+6) Happy coding, debugging a documenting!
  
 
 ![Tools in action](https://raw.githubusercontent.com/Vitexus/netbeans-php-tools/master/netbeans-php-tools.png)
