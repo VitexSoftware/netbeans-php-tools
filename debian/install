@@ -1,4 +1,3 @@
-composer /usr/bin
 phpmd /usr/bin
 pdepend /usr/bin
 nbxdebug /usr/bin
