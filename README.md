@@ -15,19 +15,23 @@ Debian package that contains tools for full value PHP development using netbeans
 
 #Installation:
 
-1) in your /etc/php/php.ini please enable all development options  
+1) NetBeans requires for some functionality Oracle version of JDK. There is 
+   [Debian way ho to make well](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html).
+   Next [Download netbeans](https://netbeans.org/downloads/) and install it. 
 
+    gksudo sh ./netbeans-8.2-linux.sh
 
 2)  Make your own debian package build using netbeans-php-tools.sh script
-    or install debian package by Vitex Software:
+    or **install Debian package by Vitex Software**:
 
     wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
     echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
     aptitude update
     aptitude install netbeans-php-tools
 
-   Package installation perform update of file 
-   /etc/php5/mods-available/xdebug.ini by adding this lines:
+   Package installation update files /etc/php5/apache2/php.ini , 
+   /etc/php5/cli/php.ini by replacing by /usr/share/php5/php.ini-development
+   and /etc/php5/mods-available/xdebug.ini by adding this lines:
 
     xdebug.remote_enable = 1
     xdebug.remote_handler=dbgp
@@ -42,11 +46,11 @@ Debian package that contains tools for full value PHP development using netbeans
    If installed Nginx,apache or lighttpd package we restart your webserver 
    automatically. In other cases please restart your webserver by hand.
 
-3) in firefox open [about:config] and if not exists create new boolean key
+3) in firefox open [about:config](about:config) and if not exists create new boolean key
    network.protocol-handler.expose.netbeans with false value.
    Then if you first time click on netbeans:// link in xdebug error message
    browser ask you for program for opening this type of adresses. Please choose
-   /usr/bin/nbxdebug
+   **/usr/bin/nbxdebug**
 
 4) In first time setup use Menu/Tools/Options/Import to get options from 
    file /usr/share/doc/netbeans-php-tools/netbeans-php-config.zip 

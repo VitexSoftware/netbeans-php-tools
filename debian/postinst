@@ -29,30 +29,45 @@ case "$1" in
         grep -q -e 'xdebug.file_link_format' $XDI || echo 'xdebug.file_link_format = "netbeans://%f?line=%l"' >> $XDI
         grep -q -e 'xdebug.profiler_enable' $XDI || echo 'xdebug.profiler_enable = 0' >> $XDI
 #        grep -q -e '' $XDI || echo '' >> $XDI        
+        
+        if [ -d "/etc/php5/apache2/" ]; then
+            mv  /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.orig
+            cp  /usr/share/php5/php.ini-development /etc/php5/apache2/php.ini
+        fi    
+            
+        if [ -d "/etc/php5/cli/" ]; then
+            mv  /etc/php5/cli/php.ini /etc/php5/cli/php.ini.orig
+            cp  /usr/share/php5/php.ini-development /etc/php5/cli/php.ini
+        fi
 
-            if [ -f /etc/init.d/nginx ] ; then
-                if [ -x /usr/sbin/invoke-rc.d ]; then
-                    invoke-rc.d nginx reload 3>/dev/null || true
-                else
-                    /etc/init.d/nginx reload 3>/dev/null || true
-                fi
-            fi
+        netbeans=`ls /usr/local/netbeans*/bin/netbeans | tail -n 1`
+        if [[ ! -z "${str// }" ]]; then
+            ln -s ${netbeans} /usr/local/bin/netbeans
+        fi
 
-            if [ -f /etc/init.d/lighttpd ] ; then
-                if [ -x /usr/sbin/invoke-rc.d ]; then
-                    invoke-rc.d lighttpd reload 3>/dev/null || true
-                else
-                    /etc/init.d/lighttpd reload 3>/dev/null || true
-                fi
+        if [ -f /etc/init.d/nginx ] ; then
+            if [ -x /usr/sbin/invoke-rc.d ]; then
+                invoke-rc.d nginx reload 3>/dev/null || true
+            else
+                /etc/init.d/nginx reload 3>/dev/null || true
             fi
+        fi
 
-            if [ -f /etc/init.d/apache2 ] ; then
-                if [ -x /usr/sbin/invoke-rc.d ]; then
-                    invoke-rc.d apache2 reload 3>/dev/null || true
-                else
-                    /etc/init.d/apache2 reload 3>/dev/null || true
-                fi
+        if [ -f /etc/init.d/lighttpd ] ; then
+            if [ -x /usr/sbin/invoke-rc.d ]; then
+                invoke-rc.d lighttpd reload 3>/dev/null || true
+            else
+                /etc/init.d/lighttpd reload 3>/dev/null || true
             fi
+        fi
+
+        if [ -f /etc/init.d/apache2 ] ; then
+            if [ -x /usr/sbin/invoke-rc.d ]; then
+                invoke-rc.d apache2 reload 3>/dev/null || true
+            else
+                /etc/init.d/apache2 reload 3>/dev/null || true
+            fi
+        fi
 
 
 
