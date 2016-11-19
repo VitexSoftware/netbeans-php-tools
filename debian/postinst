@@ -41,7 +41,7 @@ case "$1" in
         fi
 
         netbeans=`ls /usr/local/netbeans*/bin/netbeans | tail -n 1`
-        if [[ ! -z "${str// }" ]]; then
+        if [ ! -z $netbeans ]; then
             ln -s ${netbeans} /usr/local/bin/netbeans
         fi
 
