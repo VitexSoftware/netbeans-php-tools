@@ -42,6 +42,9 @@ case "$1" in
 
         netbeans=`ls /usr/local/netbeans*/bin/netbeans | tail -n 1`
         if [ ! -z $netbeans ]; then
+            if [ -f /usr/local/bin/netbeans ] ; then
+                mv /usr/local/bin/netbeans /usr/local/bin/netbeans.bak
+            fi
             ln -s ${netbeans} /usr/local/bin/netbeans
         fi
 
