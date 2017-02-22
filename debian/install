@@ -6,6 +6,8 @@ phpcbf /usr/bin
 php-cs-fixer /usr/bin
 phpcpd /usr/bin/
 phpunit-skelgen /usr/bin/
+netbeans.desktop /usr/share/applications/
+netbeans.png /usr/share/pixmaps/
 
 php-token-stream/src/Token.php /usr/share/php
 php-token-stream/src/Token/*.php /usr/share/php/Token
