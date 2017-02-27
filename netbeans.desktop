@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NetBeans IDE
+Comment=The Smarter Way to Code
+Exec=/usr/local/bin/netbeans
+Icon=/usr/share/pixmaps/netbeans.png
+Categories=Application;Development;Java;IDE
+Version=1.0
+Type=Application
+Terminal=0
