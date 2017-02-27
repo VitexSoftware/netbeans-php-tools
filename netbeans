@@ -1,0 +1,5 @@
+#!/bin/sh
+NBDIR=`ls -t /usr/local/ | grep netbeans | head -n 1`
+exec /usr/local/$NBDIR/bin/netbeans $1 $2 $3
+
+
