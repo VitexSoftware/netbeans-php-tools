@@ -17,10 +17,8 @@ set -e
 # for details, see http://www.debian.org/doc/debian-policy/ or
 # the debian-policy package
 
-
-case "$1" in
-    configure)
-        XDI="/etc/php5/mods-available/xdebug.ini"
+function setxdebug {
+    XDI=$1
         grep -q -e 'xdebug.remote_enable' $XDI || echo 'xdebug.remote_enable = 1' >> $XDI
         grep -q -e 'xdebug.remote_handler' $XDI || echo 'xdebug.remote_handler=dbgp' >> $XDI
         grep -q -e 'xdebug.remote_mode' $XDI || echo 'xdebug.remote_mode=req' >> $XDI
@@ -29,25 +27,9 @@ case "$1" in
         grep -q -e 'xdebug.file_link_format' $XDI || echo 'xdebug.file_link_format = "netbeans://%f?line=%l"' >> $XDI
         grep -q -e 'xdebug.profiler_enable' $XDI || echo 'xdebug.profiler_enable = 0' >> $XDI
 #        grep -q -e '' $XDI || echo '' >> $XDI        
-        
-        if [ -d "/etc/php5/apache2/" ]; then
-            mv  /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.orig
-            cp  /usr/share/php5/php.ini-development /etc/php5/apache2/php.ini
-        fi    
-            
-        if [ -d "/etc/php5/cli/" ]; then
-            mv  /etc/php5/cli/php.ini /etc/php5/cli/php.ini.orig
-            cp  /usr/share/php5/php.ini-development /etc/php5/cli/php.ini
-        fi
+}
 
-        netbeans=`ls /usr/local/netbeans*/bin/netbeans | tail -n 1`
-        if [ ! -z $netbeans ]; then
-            if [ -f /usr/local/bin/netbeans ] ; then
-                mv /usr/local/bin/netbeans /usr/local/bin/netbeans.bak
-            fi
-            ln -s ${netbeans} /usr/local/bin/netbeans
-        fi
-
+function reloadwebserver {
         if [ -f /etc/init.d/nginx ] ; then
             if [ -x /usr/sbin/invoke-rc.d ]; then
                 invoke-rc.d nginx reload 3>/dev/null || true
@@ -71,8 +53,46 @@ case "$1" in
                 /etc/init.d/apache2 reload 3>/dev/null || true
             fi
         fi
+}
 
 
+case "$1" in
+    configure)
+
+        XDI="/etc/php5/mods-available/xdebug.ini"
+	if [ -f $XDI ]; then
+	    setxdebug($XDI)
+
+            if [ -d "/etc/php5/apache2/" ]; then
+	        mv  /etc/php5/apache2/php.ini /etc/php5/apache2/php.ini.orig
+    	        cp  /usr/share/php5/php.ini-development /etc/php5/apache2/php.ini
+            fi    
+            
+	    if [ -d "/etc/php5/cli/" ]; then
+    	        mv  /etc/php5/cli/php.ini /etc/php5/cli/php.ini.orig
+        	cp  /usr/share/php5/php.ini-development /etc/php5/cli/php.ini
+            fi
+        fi
+
+	XDI="/etc/php/5.6/mods-available/xdebug.ini"
+        if [ -f $XDI ]; then
+    	    setxdebug($XDI)
+	fi
+
+        XDI="/etc/php/7.0/mods-available/xdebug.ini"
+	if [ -f $XDI ]; then
+		setxdebug($XDI)
+        fi
+
+	XDI="/etc/php/7.1/mods-available/xdebug.ini"
+        if [ -f $XDI ]; then
+		setxdebug($XDI)
+        fi
+
+        
+
+
+	reloadwebserver;
 
     ;;
 
