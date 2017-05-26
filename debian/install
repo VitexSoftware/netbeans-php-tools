@@ -1,4 +1,3 @@
-phpmd /usr/bin
 pdepend /usr/bin
 nbxdebug /usr/bin
 phpcs  /usr/bin

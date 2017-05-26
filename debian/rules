@@ -31,7 +31,6 @@ include /usr/share/dpkg/default.mk
 override_dh_auto_clean:
 	rm -rf php-token-stream
 	rm -f pdepend
-	rm -f phpmd
 	rm -f phpcs
 	rm -f phpcbf
 	rm -f php-cs-fixer
@@ -43,9 +42,6 @@ override_dh_auto_build:
 	wget http://static.pdepend.org/php/latest/pdepend.phar
 	mv pdepend.phar pdepend
 	chmod +x pdepend
-	wget -c http://static.phpmd.org/php/latest/phpmd.phar
-	mv phpmd.phar phpmd
-	chmod +x phpmd     
 	wget http://apigen.org/apigen.phar
 	chmod +x apigen.phar
 	mv apigen.phar apigen    
