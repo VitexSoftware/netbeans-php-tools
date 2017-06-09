@@ -22,12 +22,12 @@ Debian package that contains tools for full value PHP development using netbeans
     gksudo sh ./netbeans-8.2-linux.sh
 
 2)  Make your own debian package build using netbeans-php-tools.sh script
-    or **install Debian package by Vitex Software**:
+    or **install Debian package by [Vitex Software](https://www.vitexsoftware.cz/repos.php)**:
 
-    wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-    echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
-    aptitude update
-    aptitude install netbeans-php-tools
+        wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
+        echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
+        aptitude update
+        aptitude install netbeans-php-tools
 
    Package installation update files /etc/php5/apache2/php.ini , 
    /etc/php5/cli/php.ini by replacing by /usr/share/php5/php.ini-development
