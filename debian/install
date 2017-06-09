@@ -1,4 +1,3 @@
-pdepend /usr/bin
 nbxdebug /usr/bin
 phpcs  /usr/bin
 phpcbf /usr/bin 

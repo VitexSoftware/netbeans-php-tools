@@ -30,7 +30,6 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_clean:
 	rm -rf php-token-stream
-	rm -f pdepend
 	rm -f phpcs
 	rm -f phpcbf
 	rm -f php-cs-fixer
@@ -39,12 +38,6 @@ override_dh_auto_clean:
 	dh_auto_clean
 
 override_dh_auto_build:
-	wget http://static.pdepend.org/php/latest/pdepend.phar
-	mv pdepend.phar pdepend
-	chmod +x pdepend
-	wget http://apigen.org/apigen.phar
-	chmod +x apigen.phar
-	mv apigen.phar apigen    
 	curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
 	mv phpcs.phar phpcs
 	chmod +x phpcs
