@@ -1,7 +1,10 @@
 # netbeans-php-tools
+![Netbeans](https://raw.githubusercontent.com/VitexSoftware/netbeans-php-tools/master/netbeans.png "Package Logo")
+
 Debian package that contains tools for full value PHP development using netbeans
 
  * xdebug http://www.xdebug.org/
+ * Codeception http://codeception.com/
  * php Depend http://pdepend.org/
  * php Code Sniffer https://github.com/squizlabs/PHP_CodeSniffer
  * coding Standarts Fixer https://github.com/FriendsOfPhp/PHP-CS-Fixer
@@ -12,6 +15,8 @@ Debian package that contains tools for full value PHP development using netbeans
  * PHPUnit https://phpunit.de/
  * PHP Code Coverage 
  * PHP Copy/Paste Detector (PHPCPD) https://github.com/sebastianbergmann/phpcpd
+ * Selenium server http://www.seleniumhq.org/  with Chrome WebDriver https://sites.google.com/a/chromium.org/chromedriver/downloads
+
 
 #Installation:
 
