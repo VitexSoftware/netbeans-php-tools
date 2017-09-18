@@ -6,6 +6,8 @@ then
     NBDIR=`ls -t ~ | grep netbeans- | head -n 1`
 fi
 
+notify-send -i /usr/share/pixmaps/netbeans.png "Netbeans $NBDIR starting"
+
 exec /usr/local/$NBDIR/bin/netbeans $1 $2 $3
 
 
