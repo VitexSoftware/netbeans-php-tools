@@ -3,6 +3,7 @@
 
 Debian package that contains tools for full value PHP development using netbeans
 
+ * Firefox Developers Edition
  * xdebug http://www.xdebug.org/
  * Codeception http://codeception.com/
  * php Depend http://pdepend.org/

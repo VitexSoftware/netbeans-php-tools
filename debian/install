@@ -7,7 +7,7 @@ phpunit-skelgen /usr/bin/
 netbeans /usr/bin
 netbeans.desktop /usr/share/applications/
 netbeans.png /usr/share/pixmaps/
-netbeans.svg /usr/share/pixmaps/
+netbeans.svg /usr/share/icons/hicolor/scalable/apps
 
 php-token-stream/src/Token.php /usr/share/php
 php-token-stream/src/Token/*.php /usr/share/php/Token
