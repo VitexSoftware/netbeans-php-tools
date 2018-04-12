@@ -28,7 +28,8 @@ We also provide NetBeans [launcher script](netbeans) /usr/bin/netbeans which run
 So you can still use lastest version of netbeans by clicking on the same icon.
 
 
-#Installation:
+Installation:
+-------------
 
 1) NetBeans requires for some functionality Oracle version of JDK. There is 
    [Debian way ho to make well](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html).
@@ -62,7 +63,8 @@ So you can still use lastest version of netbeans by clicking on the same icon.
    automatically. In other cases please restart your webserver by hand.
 
 3) in firefox open [about:config](about:config) and if not exists create new boolean key
-   network.protocol-handler.expose.netbeans with false value.
+   **network.protocol-handler.expose.netbeans** with **false** value.
+   (or copy file [user.js](user.js) to your browser profile directory and restart browser )
    Then if you first time click on netbeans:// link in xdebug error message
    browser ask you for program for opening this type of adresses. Please choose
    **/usr/bin/nbxdebug**

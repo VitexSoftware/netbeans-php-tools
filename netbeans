@@ -11,3 +11,7 @@ notify-send -i /usr/share/pixmaps/netbeans.png -a NetBeans "$NBDIR starting"
 exec /usr/local/$NBDIR/bin/netbeans $1 $2 $3
 
 
+notify-send -i /usr/share/pixmaps/netbeans.png -a NetBeans "$NBDIR started"
+
+
+
