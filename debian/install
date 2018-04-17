@@ -4,6 +4,7 @@ phpcbf /usr/bin
 php-cs-fixer /usr/bin
 phpcpd /usr/bin/
 phpunit-skelgen /usr/bin/
+phar-composer /usr/bin/
 netbeans /usr/bin
 netbeans.desktop /usr/share/applications/
 netbeans.png /usr/share/pixmaps/

@@ -89,6 +89,11 @@ case "$1" in
 		setxdebug $XDI
         fi
 
+	XDI="/etc/php/7.2/mods-available/xdebug.ini"
+        if [ -f $XDI ]; then
+		setxdebug $XDI
+        fi
+
 	reloadwebserver;
 
 	if [ -f /usr/bin/xdg-desktop-menu ]; then
