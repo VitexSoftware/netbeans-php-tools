@@ -54,7 +54,7 @@ override_dh_auto_build:
 	wget https://phar.phpunit.de/phpunit-skelgen.phar
 	chmod +x phpunit-skelgen.phar
 	mv phpunit-skelgen.phar phpunit-skelgen
-        wget https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar
+	wget https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar
 	chmod +x phar-composer.phar
 	mv phar-composer.phar phar-composer
 	dh_auto_build
