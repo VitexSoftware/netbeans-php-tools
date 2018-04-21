@@ -59,6 +59,5 @@ override_dh_auto_build:
 	mv phar-composer.phar phar-composer
 	dh_auto_build
 
-
-
- 
+override_dh_auto_install:
+	dh_auto_install

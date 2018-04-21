@@ -1,8 +1,13 @@
 #!/bin/bash
 cd /tmp
+notify-send -i /usr/share/icons/hicolor/128x128/apps/netbeans.png -a NetBeansDevIncubator "starting download"
 wget https://builds.apache.org/view/Incubator%20Projects/job/incubator-netbeans-release/lastSuccessfulBuild/artifact/dist/incubating-netbeans-java--bin.zip
+notify-send -i /usr/share/icons/hicolor/128x128/apps/netbeans.png -a NetBeansDevIncubator "unpacking"
 unzip incubating-netbeans-java--bin.zip
+notify-send -i /usr/share/icons/hicolor/128x128/apps/netbeans.png -a NetBeansDevIncubator "prepare to start"
 sudo rm -rf  /usr/local/netbeans-incubating
 sudo mv netbeans /usr/local/netbeans-incubating
 rm incubating-netbeans-java--bin.zip
-#run /usr/local/netbeans-incubating/bin/netbeans
+netbeans
+
+

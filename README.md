@@ -65,7 +65,14 @@ Installation:
 
 3) in firefox open [about:config](about:config) and if not exists create new boolean key
    **network.protocol-handler.expose.netbeans** with **false** value.
-   (or copy file [user.js](user.js) to your browser profile directory and restart browser )
+   or copy file [user.js](user.js) to your browser profile directory 
+
+   ```
+   cp /usr/share/doc/netbeans-php-tools/user.js ~/.mozilla/firefox/*.default*
+   ```
+   and restart browser 
+
+
    Then if you first time click on netbeans:// link in xdebug error message
    browser ask you for program for opening this type of adresses. Please choose
    **/usr/bin/nbxdebug**
