@@ -6,7 +6,7 @@ phpcpd /usr/bin/
 phpunit-skelgen /usr/bin/
 phar-composer /usr/bin/
 netbeans /usr/bin
-netbeans-incubating.sh  /usr/bin
+netbeans-incubating-installer  /usr/bin
 netbeans.desktop /usr/share/applications/
 netbeans.png /usr/share/pixmaps/
 user.js /usr/share/doc/netbeans-php-tools
