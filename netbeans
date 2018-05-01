@@ -8,10 +8,11 @@ fi
 
 notify-send -i /usr/share/pixmaps/netbeans.png -a NetBeans "$NBDIR starting"
 
-exec /usr/local/$NBDIR/bin/netbeans $1 $2 $3
-
+if [ -z "$NBDIR" ]
+then
+    netbeans-incubating-installer
+else
+    exec /usr/local/$NBDIR/bin/netbeans $1 $2 $3
+fi
 
 notify-send -i /usr/share/pixmaps/netbeans.png -a NetBeans "$NBDIR started"
-
-
-
