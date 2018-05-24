@@ -1,0 +1,1 @@
+sudo a2dismod php5 && sudo a2enmod php7.2 && sudo apache2ctl restart

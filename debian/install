@@ -1,4 +1,7 @@
 nbxdebug /usr/bin
+tophp5   /usr/bin
+tophp7   /usr/bin
+tophp7.1 /usr/bin
 phpcs  /usr/bin
 phpcbf /usr/bin 
 php-cs-fixer /usr/bin

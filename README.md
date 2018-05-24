@@ -90,3 +90,4 @@ Installation:
  
 ![Tools in action](https://raw.githubusercontent.com/Vitexus/netbeans-php-tools/master/netbeans-php-tools.png)
 
+We also recommend install several versions of PHP as described here: https://www.colinodell.com/blog/201711/installing-php-72
