@@ -1,3 +1,3 @@
-sudo a2dismod php7.1 php7.0 php7.2  &&  sudo a2enmod php5 &&  sudo apache2ctl restart
+sudo a2dismod php7.1 php7.0 php7.2  &&  sudo a2enmod php5.6 &&  sudo apache2ctl restart
 
 
