@@ -1,6 +1,18 @@
 nbxdebug /usr/bin
-tophp*   /usr/bin
-composer*   /usr/bin
+
+composer56	/usr/bin
+composer70	/usr/bin
+composer71	/usr/bin
+composer72	/usr/bin
+usephp56	/usr/bin
+usephp70	/usr/bin
+usephp71	/usr/bin
+usephp72	/usr/bin
+
+
+
+
+
 phpcs  /usr/bin
 phpcbf /usr/bin 
 php-cs-fixer /usr/bin
