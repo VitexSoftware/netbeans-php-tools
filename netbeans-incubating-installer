@@ -1,9 +1,11 @@
 #!/bin/bash
-ARCHIVE="incubating-netbeans-java-9.0-rc1-bin.zip"
-GETFROM="https://builds.apache.org/view/Incubator%20Projects/job/incubator-netbeans-release/lastSuccessfulBuild/artifact/dist/"
 
+#ARCHIVE="incubating-netbeans-java-9.0-rc1-bin.zip"
 ARCHIVE="incubating-netbeans-java-9.0-beta-bin.zip"
 GETFROM="http://mirror.dkm.cz/apache/incubator/netbeans/incubating-netbeans-java/incubating-9.0-beta/"
+
+ARCHIVE="incubating-netbeans-java--bin.zip"
+GETFROM="https://builds.apache.org/view/Incubator%20Projects/job/incubator-netbeans-release/lastSuccessfulBuild/artifact/dist/"
 
 cd /tmp
 notify-send -i /usr/share/icons/hicolor/128x128/apps/netbeans.png -a NetBeansDevIncubator "starting download"

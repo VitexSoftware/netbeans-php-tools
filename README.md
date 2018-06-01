@@ -90,4 +90,19 @@ Installation:
  
 ![Tools in action](https://raw.githubusercontent.com/Vitexus/netbeans-php-tools/master/netbeans-php-tools.png)
 
+Commands included
+-----------------
+
+
+ * **nbxdebug** - browser to ide helper
+ * **netbeans** - run latest netbeans installed ( install current incubating if no netbeans installed )
+ * **netbeans-incubating-installer** - download && install current incubating 
+ * **phar-composer** - transform php project to phar archive
+ * **phpcbf** -
+ * **phpcpd** - Copy/Paste Detector
+ * **phpcs** - code sniffer
+ * **php-cs-fixer** - coding standard fixer
+ * **phpunit-skelgen**
+
+
 We also recommend install several versions of PHP as described here: https://www.colinodell.com/blog/201711/installing-php-72
