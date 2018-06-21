@@ -30,33 +30,23 @@ include /usr/share/dpkg/default.mk
 
 override_dh_auto_clean:
 	rm -rf php-token-stream
-	rm -f phpcs
-	rm -f phpcbf
-	rm -f php-cs-fixer
-	rm -f phpcpd
-	rm -f phpunit-skelgen
-	rm -f phar-composer
+	rm -f bin/phpcs
+	rm -f bin/phpcbf
+	rm -f bin/php-cs-fixer
+	rm -f bin/phpcpd
+	rm -f bin/phpunit-skelgen
+	rm -f bin/phar-composer
 	dh_auto_clean
 
 override_dh_auto_build:
-	curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar
-	mv phpcs.phar phpcs
-	chmod +x phpcs
-	curl -OL https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
-	mv phpcbf.phar phpcbf
-	chmod +x phpcbf
 	git clone https://github.com/sebastianbergmann/php-token-stream.git
-	wget http://get.sensiolabs.org/php-cs-fixer.phar -O php-cs-fixer
-	chmod +x php-cs-fixer        
-	wget https://phar.phpunit.de/phpcpd.phar
-	chmod +x phpcpd.phar
-	mv phpcpd.phar phpcpd
-	wget https://phar.phpunit.de/phpunit-skelgen.phar
-	chmod +x phpunit-skelgen.phar
-	mv phpunit-skelgen.phar phpunit-skelgen
-	wget https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar
-	chmod +x phar-composer.phar
-	mv phar-composer.phar phar-composer
+	wget https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar -O bin/phpcs
+	wget https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar -O bin/phpcbf
+	wget http://get.sensiolabs.org/php-cs-fixer.phar -O bin/php-cs-fixer
+	wget https://phar.phpunit.de/phpcpd.phar -O bin/phpcpd
+	wget https://phar.phpunit.de/phpunit-skelgen.phar -O bin/phpunit-skelgen
+	wget https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar -O bin/phar-composer
+	chmod +x bin/*
 	dh_auto_build
 
 override_dh_auto_install:

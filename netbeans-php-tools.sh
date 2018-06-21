@@ -13,7 +13,7 @@ echo $BUILD > build
 #dch -v $VERSION-1 --package libjs-twitter-bootstrap $CHANGES
 dch -v $VERSION-$BUILD --package $PACKAGE "Debianized $VERSION"
 
-debuild -i -us -uc -b
+dpkg-buildpackage -A -us -uc
 
 cd ..
 #~/bin/publish-deb-packages.sh

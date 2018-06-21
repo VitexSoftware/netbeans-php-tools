@@ -1,26 +1,5 @@
-nbxdebug /usr/bin
+bin/*		/usr/bin
 
-composer56	/usr/bin
-composer70	/usr/bin
-composer71	/usr/bin
-composer72	/usr/bin
-usephp56	/usr/bin
-usephp70	/usr/bin
-usephp71	/usr/bin
-usephp72	/usr/bin
-
-
-
-
-
-phpcs  /usr/bin
-phpcbf /usr/bin 
-php-cs-fixer /usr/bin
-phpcpd /usr/bin/
-phpunit-skelgen /usr/bin/
-phar-composer /usr/bin/
-netbeans /usr/bin
-netbeans-incubating-installer  /usr/bin
 netbeans.desktop /usr/share/applications/
 netbeans.png /usr/share/pixmaps/
 user.js /usr/share/doc/netbeans-php-tools

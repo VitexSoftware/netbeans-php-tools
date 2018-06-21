@@ -1,4 +1,6 @@
-# netbeans-php-tools
+netbeans-php-tools
+==================
+
 ![Netbeans](https://raw.githubusercontent.com/VitexSoftware/netbeans-php-tools/master/netbeans.png "Package Logo")
 
 Debian package that contains tools for full value PHP development using netbeans
@@ -43,8 +45,8 @@ Installation:
 
         wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
         echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
-        aptitude update
-        aptitude install netbeans-php-tools
+        apt update
+        apt install netbeans-php-tools
 
    Package installation update files /etc/php5/apache2/php.ini , 
    /etc/php5/cli/php.ini by replacing by /usr/share/php5/php.ini-development
