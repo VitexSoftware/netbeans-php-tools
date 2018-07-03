@@ -18,6 +18,7 @@ Debian package that contains tools for full value PHP development using netbeans
  * PHPUnit https://phpunit.de/
  * PHP Code Coverage 
  * phar composer https://github.com/clue/phar-composer
+ * phpstan https://github.com/phpstan/phpstan
  * PHP Copy/Paste Detector (PHPCPD) https://github.com/sebastianbergmann/phpcpd
  * Selenium server http://www.seleniumhq.org/  with Chrome WebDriver https://sites.google.com/a/chromium.org/chromedriver/downloads
 

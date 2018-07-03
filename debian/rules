@@ -46,6 +46,7 @@ override_dh_auto_build:
 	wget https://phar.phpunit.de/phpcpd.phar -O bin/phpcpd
 	wget https://phar.phpunit.de/phpunit-skelgen.phar -O bin/phpunit-skelgen
 	wget https://github.com/clue/phar-composer/releases/download/v1.0.0/phar-composer.phar -O bin/phar-composer
+        wget https://github.com/phpstan/phpstan/releases/download/0.10.1/phpstan.phar -O bin/phpstan
 	chmod +x bin/*
 	dh_auto_build
 
