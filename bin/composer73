@@ -1,0 +1,3 @@
+#!/usr/bin/php7.3 -q
+<?php
+require_once('/usr/bin/composer');
