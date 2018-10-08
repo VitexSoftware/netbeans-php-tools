@@ -1,6 +1,5 @@
 dh_update_autotools_config
 dh_auto_configure
-override_dh_auto_build dh_auto_build
 dh_auto_build
 dh_auto_test
 dh_prep
