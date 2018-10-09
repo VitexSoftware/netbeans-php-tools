@@ -4,7 +4,7 @@
 ARCHIVE="incubating-netbeans-java-9.0-beta-bin.zip"
 GETFROM="http://mirror.dkm.cz/apache/incubator/netbeans/incubating-netbeans-java/incubating-9.0-beta/"
 
-ARCHIVE="incubating-netbeans-java--bin.zip"
+ARCHIVE="incubating-netbeans-java-9.0-bin.zip"
 GETFROM="https://builds.apache.org/view/Incubator%20Projects/job/incubator-netbeans-release/lastSuccessfulBuild/artifact/dist/"
 
 cd /tmp

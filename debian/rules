@@ -31,7 +31,6 @@ include /usr/share/dpkg/default.mk
 override_dh_auto_clean:
 	rm -rf php-token-stream
 	rm -f bin/phpcs
-	rm -f bin/phpcbf
 	rm -f bin/php-cs-fixer
 	rm -f bin/phpcpd
 	rm -f bin/phpunit-skelgen
@@ -41,7 +40,6 @@ override_dh_auto_clean:
 override_dh_auto_build:
 	git clone https://github.com/sebastianbergmann/php-token-stream.git
 	wget https://squizlabs.github.io/PHP_CodeSniffer/phpcs.phar -O bin/phpcs
-	wget https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar -O bin/phpcbf
 	wget http://get.sensiolabs.org/php-cs-fixer.phar -O bin/php-cs-fixer
 	wget https://phar.phpunit.de/phpcpd.phar -O bin/phpcpd
 	wget https://phar.phpunit.de/phpunit-skelgen.phar -O bin/phpunit-skelgen
