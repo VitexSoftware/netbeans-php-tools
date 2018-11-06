@@ -1,4 +1,4 @@
-netbeans-php-tools (0.4-17) UNRELEASED; urgency=medium
+netbeans-php-tools (0.5-22) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * Debianized 0.2
@@ -22,7 +22,13 @@ netbeans-php-tools (0.4-17) UNRELEASED; urgency=medium
   * Debianized 0.3
   * Debianized 0.4
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 18 Sep 2018 23:10:50 +0200
+  [ Vitex ]
+  * Debianized 0.4
+  * Debianized 0.4
+  * Debianized 0.4
+  * Debianized 0.5
+
+ -- Vitex <vitex@hebeditko>  Mon, 05 Nov 2018 23:54:33 +0100
 
 netbeans-php-tools (0.1) unstable; urgency=low
 
