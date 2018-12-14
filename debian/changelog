@@ -1,31 +1,12 @@
-netbeans-php-tools (0.4-17) UNRELEASED; urgency=medium
+netbeans-php-tools (0.5.23) UNRELEASED; urgency=medium
 
-  [ Vítězslav Dvořák ]
-  * Debianized 0.2
+  * Debianized 0.4-19
+  * Install stable netbeans 9
 
-  [ Cybervitexus ]
-  * Debianized 0.2
+ -- vitex <vitex@hosting.vitexsoftware.cz>  Fri, 14 Dec 2018 14:55:21 +0100
 
-  [ vitex ]
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
+netbeans-php-tools (0.4-19) experimental; urgency=medium
 
-  [ Vítězslav Dvořák ]
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.3
-  * Debianized 0.4
+  * rebuild
 
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Tue, 18 Sep 2018 23:10:50 +0200
-
-netbeans-php-tools (0.1) unstable; urgency=low
-
-  * Initial Release.
-
- -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 16 Jul 2015 16:33:15 +0200
+ -- vitex <vitex@hosting.vitexsoftware.cz>  Tue, 09 Oct 2018 00:19:57 +0200
