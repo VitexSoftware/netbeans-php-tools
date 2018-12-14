@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 netbeans-php-tools (0.5.23) UNRELEASED; urgency=medium
+=======
+netbeans-php-tools (0.5-22) UNRELEASED; urgency=medium
+>>>>>>> 1836922203c9880d537562d2cee2054652a667b3
 
   * Debianized 0.4-19
   * Install stable netbeans 9
@@ -9,4 +13,20 @@ netbeans-php-tools (0.4-19) experimental; urgency=medium
 
   * rebuild
 
+<<<<<<< HEAD
  -- vitex <vitex@hosting.vitexsoftware.cz>  Tue, 09 Oct 2018 00:19:57 +0200
+=======
+  [ Vitex ]
+  * Debianized 0.4
+  * Debianized 0.4
+  * Debianized 0.4
+  * Debianized 0.5
+
+ -- Vitex <vitex@hebeditko>  Mon, 05 Nov 2018 23:54:33 +0100
+
+netbeans-php-tools (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 16 Jul 2015 16:33:15 +0200
+>>>>>>> 1836922203c9880d537562d2cee2054652a667b3

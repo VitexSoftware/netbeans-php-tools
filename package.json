@@ -1,7 +1,11 @@
 
 {
     "name": "netbeans-php-tools",
+<<<<<<< HEAD
     "version": "0.4-19",
+=======
+    "version": "0.5",
+>>>>>>> 1836922203c9880d537562d2cee2054652a667b3
     "url": "https://github.com/Vitexus/netbeans-php-tools/issues",
     "email": "info@vitexsoftware.cz",
     "repository":
