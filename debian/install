@@ -1,14 +1,6 @@
 bin/*		/usr/bin
 
-netbeans.desktop /usr/share/applications/
-netbeans.png /usr/share/pixmaps/
 user.js /usr/share/doc/netbeans-php-tools
-
-icons/hicolor/512x512/netbeans.png /usr/share/icons/hicolor/512x512/apps
-icons/hicolor/256x256/netbeans.png /usr/share/icons/hicolor/256x256/apps
-icons/hicolor/128x128/netbeans.png /usr/share/icons/hicolor/128x128/apps
-icons/hicolor/64x64/netbeans.png /usr/share/icons/hicolor/64x64/apps
-netbeans.svg /usr/share/icons/hicolor/scalable/apps
 
 php-token-stream/src/Token.php /usr/share/php
 php-token-stream/src/Token/*.php /usr/share/php/Token
