@@ -5,6 +5,7 @@ netbeans-php-tools
 
 Debian package that contains tools for full value PHP development using netbeans
 
+ * Apache Netbeans 10
  * Firefox Developers Edition
  * xdebug http://www.xdebug.org/
  * Codeception http://codeception.com/
@@ -21,16 +22,6 @@ Debian package that contains tools for full value PHP development using netbeans
  * phpstan https://github.com/phpstan/phpstan
  * PHP Copy/Paste Detector (PHPCPD) https://github.com/sebastianbergmann/phpcpd
  * Selenium server http://www.seleniumhq.org/  with Chrome WebDriver https://sites.google.com/a/chromium.org/chromedriver/downloads
-
-Launcher
---------
-
-We also provide NetBeans [launcher script](netbeans) /usr/bin/netbeans which run the newest version of NetBeans in /usr/local
-
-![Startup notifier](https://raw.githubusercontent.com/Vitexus/netbeans-php-tools/master/netbeans-php-startup-notify.png)
-
-So you can still use lastest version of netbeans by clicking on the same icon.
-
 
 Installation:
 -------------
