@@ -17,3 +17,4 @@ for d in /usr/lib/php/*.* ; do
     fi
   fi
 done
+apache2ctl restart
