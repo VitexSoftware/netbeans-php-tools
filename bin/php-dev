@@ -1,0 +1,19 @@
+#!/bin/bash
+for d in /usr/lib/php/*.* ; do
+  if [ -d "$d" ]; then
+    PHPVER=`echo $d | awk -F'/' '{ print $5}'`
+    if [ -f ${d}/php.ini-development ]; then
+	if [ -d "/etc/php/$PHPVER/apache2/" ]; then
+	    echo "Use ${d}/php.ini-development for Apache"
+	    cp -f	/etc/php/$PHPVER/apache2/php.ini /etc/php/$PHPVER/apache2/php.ini-orig
+	    cp -f	${d}/php.ini-development	/etc/php/$PHPVER/apache2/php.ini 
+	fi
+
+	if [ -d "/etc/php/$PHPVER/apache2/" ]; then
+	    echo "Use ${d}/php.ini-development for CLI"
+	    cp -f	/etc/php/$PHPVER/cli/php.ini     /etc/php/$PHPVER/cli/php.ini-orig
+	    cp -f	${d}/php.ini-development	/etc/php/$PHPVER/cli/php.ini
+	fi
+    fi
+  fi
+done

@@ -5,7 +5,7 @@ netbeans-php-tools
 
 Debian package that contains tools for full value PHP development using netbeans
 
- * Apache Netbeans 10
+ * Apache Netbeans 11
  * Firefox Developers Edition
  * xdebug http://www.xdebug.org/
  * Codeception http://codeception.com/
@@ -90,12 +90,16 @@ Commands included
 
  * **nbxdebug** - browser to ide helper
  * **netbeans** - run latest netbeans installed ( install current incubating if no netbeans installed )
+
+
  * **netbeans-incubating-installer** - download && install current incubating 
  * **phar-composer** - transform php project to phar archive
  * **phpcbf** -
  * **phpcpd** - Copy/Paste Detector
  * **phpcs** - code sniffer
  * **php-cs-fixer** - coding standard fixer
+ * **php-dev** - use /usr/lib/php/*/php.ini-development configuration
+ * **php-prod** - use /usr/lib/php/*/php.ini-production[.cli] configuration
  * **phpunit-skelgen**
 
 
