@@ -1,4 +1,4 @@
-sudo a2dismod  php7.0 php7.1 php7.2 php7.3
+sudo a2dismod  php7.0 php7.1 php7.2 php7.3 php7.4
 sudo a2enmod php5.6 &&  sudo apache2ctl restart
 sudo update-alternatives --set php /usr/bin/php5.6
 sudo update-alternatives --set phar /usr/bin/phar5.6
