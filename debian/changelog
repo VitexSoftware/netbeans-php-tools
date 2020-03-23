@@ -1,11 +1,17 @@
-netbeans-php-tools (0.9) UNRELEASED; urgency=medium
+netbeans-php-tools (1.0) UNRELEASED; urgency=medium
+
+  [ Vítězslav Dvořák ]
+  * apigen removed
+
+  [ CyberVitexus ]
+  * debian buster build
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 24 Oct 2019 19:32:14 +0200
+
+netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
   [ Vitex ]
   * Scripts for development and production php configuration switching added
-  * php7.4 support added
-
-  [ Vítězslav Dvořák ]
-  * 
 
  -- Vitex <info@vitexsoftware.cz>  Sun, 28 Apr 2019 23:55:55 +0200
 

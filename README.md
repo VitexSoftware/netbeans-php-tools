@@ -13,7 +13,6 @@ Debian package that contains tools for full value PHP development using netbeans
  * php Code Sniffer https://github.com/squizlabs/PHP_CodeSniffer
  * coding Standarts Fixer https://github.com/FriendsOfPhp/PHP-CS-Fixer
  * Mess Detector http://phpmd.org/
- * ApiGen https://github.com/apigen/apigen
  * Composer https://getcomposer.org/
  * PHPDoc http://www.phpdoc.de/
  * PHPUnit https://phpunit.de/
