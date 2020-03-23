@@ -3,6 +3,7 @@
 ./bin/composer71
 ./bin/composer72
 ./bin/composer73
+./bin/composer74
 ./bin/nbxdebug
 ./bin/phar-composer
 ./bin/php-cs-fixer
@@ -10,7 +11,6 @@
 ./bin/php-prod
 ./bin/phpcpd
 ./bin/phpstan
-./bin/phpunit-skelgen
 ./bin/usephp56
 ./bin/usephp70
 ./bin/usephp71
