@@ -34,18 +34,19 @@ Installation:
 2)  Make your own debian package build using netbeans-php-tools.sh script
     or **install Debian package by [Vitex Software](https://www.vitexsoftware.cz/repos.php)**:
 
-
+```shell
 	sudo apt install lsb-release wget
 	echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
 	sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
 	sudo apt update
 	sudo apt install netbeans-php-tools
-
+```
 
    Package installation update files /etc/php/*/apache2/php.ini , 
    /etc/php/*/cli/php.ini by replacing by /usr/share/php/*/php.ini-development
    and /etc/php/*/mods-available/xdebug.ini by adding this lines:
 
+```ini
     xdebug.remote_enable = 1
     xdebug.remote_handler=dbgp
     xdebug.remote_mode=req
@@ -53,6 +54,7 @@ Installation:
     xdebug.remote_port=9000
     xdebug.file_link_format = "netbeans://%f?line=%l"
     xdebug.profiler_enable = 0
+```
 
    This may be ok for fresh system. In other cases Please review and control 
    this changes for your current setup. 
