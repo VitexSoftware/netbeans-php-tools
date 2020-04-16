@@ -29,19 +29,22 @@ Installation:
    [Debian way ho to make well](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html).
    Next [Download netbeans](https://netbeans.org/downloads/) and install it. 
 
-    gksudo sh ./netbeans-8.2-linux.sh
+    wget https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/11.3/Apache-NetBeans-11.3-bin-linux-x64.sh ;  gksudo sh ./Apache-NetBeans-11.3-bin-linux-x64.sh
 
 2)  Make your own debian package build using netbeans-php-tools.sh script
     or **install Debian package by [Vitex Software](https://www.vitexsoftware.cz/repos.php)**:
 
-        wget -O - http://v.s.cz/info@vitexsoftware.cz.gpg.key|sudo apt-key add -
-        echo deb http://v.s.cz/ stable main > /etc/apt/sources.list.d/ease.list
-        apt update
-        apt install netbeans-php-tools
 
-   Package installation update files /etc/php5/apache2/php.ini , 
-   /etc/php5/cli/php.ini by replacing by /usr/share/php5/php.ini-development
-   and /etc/php5/mods-available/xdebug.ini by adding this lines:
+	sudo apt install lsb-release wget
+	echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+	sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
+	sudo apt update
+	sudo apt install netbeans-php-tools
+
+
+   Package installation update files /etc/php/*/apache2/php.ini , 
+   /etc/php/*/cli/php.ini by replacing by /usr/share/php/*/php.ini-development
+   and /etc/php/*/mods-available/xdebug.ini by adding this lines:
 
     xdebug.remote_enable = 1
     xdebug.remote_handler=dbgp
@@ -90,6 +93,19 @@ Commands included
  * **nbxdebug** - browser to ide helper
  * **netbeans** - run latest netbeans installed ( install current incubating if no netbeans installed )
 
+ * **composer56** - run composer under php5.6
+ * **composer70** - run composer under php7.0
+ * **composer71** - run composer under php7.1
+ * **composer72** - run composer under php7.2
+ * **composer73** - run composer under php7.3
+ * **composer74** - run composer under php7.4
+
+ * **usephp56** - swith current webserver and commandline php to php5.6
+ * **usephp70** - swith current webserver and commandline php to php7.0
+ * **usephp71** - swith current webserver and commandline php to php7.1 
+ * **usephp72** - swith current webserver and commandline php to php7.2
+ * **usephp73** - swith current webserver and commandline php to php7.3
+ * **usephp74** - swith current webserver and commandline php to php7.4 
 
  * **netbeans-incubating-installer** - download && install current incubating 
  * **phar-composer** - transform php project to phar archive
