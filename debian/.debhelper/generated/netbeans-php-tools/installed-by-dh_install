@@ -4,6 +4,7 @@
 ./bin/composer72
 ./bin/composer73
 ./bin/composer74
+./bin/installphp
 ./bin/nbxdebug
 ./bin/phar-composer
 ./bin/php-cs-fixer

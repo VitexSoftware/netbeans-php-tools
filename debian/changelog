@@ -1,4 +1,4 @@
-netbeans-php-tools (1.1) UNRELEASED; urgency=medium
+netbeans-php-tools (1.2) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * apigen removed
@@ -9,7 +9,10 @@ netbeans-php-tools (1.1) UNRELEASED; urgency=medium
   [ Vítězslav Dvořák ]
   * php-codeception removed
 
- -- Vítězslav Dvořák <vitex@develoid.jinonice.czf>  Mon, 23 Mar 2020 17:23:24 +0100
+  [ CyberVitexus ]
+  * Format examples
+
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sun, 10 May 2020 15:22:31 +0200
 
 netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
