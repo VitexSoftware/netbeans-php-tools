@@ -1,5 +1,13 @@
 #!/bin/bash
-url=$1
+
+urldecode() {
+    # urldecode <string>
+    local url_encoded="${1//+/ }"
+    printf '%b' "${url_encoded//%/\\x}"
+}
+
+
+url=$(urldecode $1) 
 file=${url#*//}
 file=${file%?line=*}
 line=${url#*line=}
