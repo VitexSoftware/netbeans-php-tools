@@ -3,14 +3,14 @@ Section: devel
 Priority: optional
 Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
 Build-Depends: debhelper (>= 9), git, php-cli ,wget
-Standards-Version: 3.9.5
+Standards-Version: 4.3.0
 Homepage: https://github.com/Vitexus/netbeans-php-tools
 Vcs-Git: git@github.com:Vitexus/netbeans-php-tools.git
 Vcs-Browser: https://github.com/Vitexus/netbeans-php-tools
 
 Package: netbeans-php-tools
 Architecture: all
-Depends: ${misc:Depends},netbeans,pear-channels,php-cli|php5-cli|php7.0-cli|php7.1-cli|php7.2-cli|php7.3-cli|php7.4-cli, php-xdebug|php5-xdebug, phpunit, composer, phpmd, pdepend, firefoxdriver|ruby-chromedriver-helper,nightly,phing,php-codesniffer, dialog, phpunit-skelgen
+Depends: ${misc:Depends},netbeans,pear-channels,php-cli, php-xdebug, phpunit, composer, phpmd, pdepend, firefoxdriver|ruby-chromedriver-helper,nightly,phing,php-codesniffer, dialog, phpunit-skelgen,phar-composer
 Description: Various supporting tools for full value PHP development.
  Netbeans give you powerful IDE for all kinds of good practices
  testing, profiling, documentation, code coverage etc.

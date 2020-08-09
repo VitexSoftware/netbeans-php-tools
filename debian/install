@@ -2,9 +2,7 @@ bin/*		/usr/bin
 
 user.js /usr/share/doc/netbeans-php-tools
 
-php-token-stream/src/Token.php /usr/share/php
-php-token-stream/src/Token/*.php /usr/share/php/Token
-php-token-stream/src/Token/Stream/*.php /usr/share/php/Token/Stream
+php-token-stream/src/*.php /usr/share/php/Token
 
 netbeans-php-config.zip /usr/share/doc/netbeans-php-tools
 README.md /usr/share/doc/netbeans-php-tools
