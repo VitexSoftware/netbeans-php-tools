@@ -13,8 +13,9 @@ netbeans-php-tools (1.4) UNRELEASED; urgency=medium
   * Format examples
   * Makefile added
   * Release v1.3
+  * Release v1.4
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Mon, 10 Aug 2020 06:53:06 +0200
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Mon, 10 Aug 2020 06:58:24 +0200
 
 netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
