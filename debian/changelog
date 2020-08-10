@@ -1,4 +1,4 @@
-netbeans-php-tools (1.3) UNRELEASED; urgency=medium
+netbeans-php-tools (1.4) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * apigen removed
@@ -12,8 +12,9 @@ netbeans-php-tools (1.3) UNRELEASED; urgency=medium
   [ CyberVitexus ]
   * Format examples
   * Makefile added
+  * Release v1.3
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Sun, 09 Aug 2020 18:10:12 +0200
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Mon, 10 Aug 2020 06:53:06 +0200
 
 netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
