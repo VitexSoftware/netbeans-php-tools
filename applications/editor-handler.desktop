@@ -1,0 +1,8 @@
+
+
+[Desktop Entry]
+Name=Netbeans
+Exec=editor-handler %u
+Type=Application
+Terminal=false
+MimeType=x-scheme-handler/editor

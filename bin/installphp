@@ -1,5 +1,10 @@
 #!/bin/bash
 
+strstr() {
+  [ "${1#*$2*}" = "$1" ] && return 1
+  return 0
+}
+
 CURRENT=`php -r '$v=explode(".", PHP_VERSION); echo $v[0].".".$v[1];'`
 AVAILBLE=`apt-cache search --names-only php | egrep '^php[0-9]\.[0-9] ' | awk '{print $1}' | sort | sed 's/php//g'`
 
@@ -37,7 +42,7 @@ do
 	if ! `apt-cache pkgnames | grep -q "\<$CANDIDAT\>"`; then
 	    echo $CANDIDAT is not availble
 	else
-	    CANDIDATES+=" $CANDIDAT on"
+	  strstr $CANDIDAT  "dbgsym" && CANDIDATES+=" $CANDIDAT off" || CANDIDATES+=" $CANDIDAT on"
 	fi
     done
 

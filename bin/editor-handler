@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+$url = parse_url($argv[1]);
+if ($url['host'] === 'open' && $url['path'] === '/') {
+	parse_str($url['query'], $query);
+	$arg = $query['file'] . (isset($query['line']) ? ':' . $query['line'] : '');
+	exec('netbeans --open ' . escapeshellarg($arg));
+}
+
