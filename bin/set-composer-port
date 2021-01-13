@@ -1,0 +1,5 @@
+port=$1
+find /etc/php \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i "/xdebug.remote_port=/c\xdebug.remote_port=${port}"
+systemctl restart apache2ctl
+
+

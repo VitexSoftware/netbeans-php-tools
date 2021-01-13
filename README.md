@@ -102,12 +102,13 @@ Commands included
  * **composer73** - run composer under php7.3
  * **composer74** - run composer under php7.4
 
- * **usephp56** - swith current webserver and commandline php to php5.6
- * **usephp70** - swith current webserver and commandline php to php7.0
- * **usephp71** - swith current webserver and commandline php to php7.1 
- * **usephp72** - swith current webserver and commandline php to php7.2
- * **usephp73** - swith current webserver and commandline php to php7.3
- * **usephp74** - swith current webserver and commandline php to php7.4 
+ * **usephp-5.6** - swith current webserver and commandline php to php5.6
+ * **usephp-7.0** - swith current webserver and commandline php to php7.0
+ * **usephp-7.1** - swith current webserver and commandline php to php7.1 
+ * **usephp-7.2** - swith current webserver and commandline php to php7.2
+ * **usephp-7.3** - swith current webserver and commandline php to php7.3
+ * **usephp-7.4** - swith current webserver and commandline php to php7.4 
+ * **usephp-8.0** - swith current webserver and commandline php to php8.0 
 
  * **netbeans-incubating-installer** - download && install current incubating 
  * **phar-composer** - transform php project to phar archive
@@ -121,3 +122,9 @@ Commands included
 
 
 We also recommend install several versions of PHP as described here: https://www.colinodell.com/blog/201711/installing-php-72
+
+Plugins Included
+----------------
+
+ * PHP Version switcher https://github.com/VitexSoftware/netbeans-php-switcher
+

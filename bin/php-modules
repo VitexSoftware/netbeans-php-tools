@@ -1,0 +1,68 @@
+#!/bin/bash
+
+strstr() {
+  [ "${1#*$2*}" = "$1" ] && return 1
+  return 0
+}
+
+
+
+PHP_VER="7.4"
+PHP_SAPI="cli"
+CURRENT_PHP_VERSION=`php -r '$v=explode(".", PHP_VERSION); echo $v[0].".".$v[1];'`
+PHP_VERSIONS=`ls /etc/php/`
+
+
+
+OPTIONS=" "
+for VER in $AVAILBLE
+do
+    OPTIONS+="$VER off "
+done
+
+cmd=(dialog --stdout --no-items --separate-output --ok-label "Search for packages" --checklist "PHP Modules to ENABLE:" 22 76 16)
+VERSIONS=$("${cmd[@]}" ${OPTIONS})
+
+ALLMODULES=`ls /etc/php/*/${SAPI}/conf.d/  -1 | sed -e 's/\.ini$//' | uniq | awk -F- '{print $2}'`
+
+CANDIDATES=""
+
+CANDIDCOUNT=`echo $ENABLED | wc -w`
+AVAILCOUNT=`echo $ALLMODULES | wc -w`;
+
+let "ALLCANDIDATESCOUNT = $CANDIDCOUNT * $AVAILCOUNT"
+
+
+for PHPVER in $VERSIONS
+do
+
+
+    MODULES_AVAILBLE=`ls /etc/php/${PHP_VER}/mods-available/  -1 | sed -e 's/\.ini$//'`
+    MODULES_ENABLED=""
+    MODULES_DISABLED=""
+    OPTIONS=""
+
+    for MODULE in ${MODULES_AVAILBLE}
+    do
+	FILE=`ls /etc/php/${PHP_VER}/${PHP_SAPI}/conf.d/*| grep $MODULE`
+        if [ -z "$FILE" ]
+        then
+		MODULES_DISABLED+=" $MODULE "
+		OPTIONS+=" $MODULE off "
+        else
+		MODULES_ENABLED+=" $MODULE "
+		OPTIONS+=" $MODULE on "
+        fi
+    done
+
+cmd=(dialog --stdout --no-items --separate-output --ok-label "ENABLE modules" --checklist "PHP ${PHPVER} Modules to ENABLE:" 22 76 16)
+TOENABLE=$("${cmd[@]}" ${CANDIDATES})
+
+echo ${TOENABLE}
+
+done
+
+
+
+
+
