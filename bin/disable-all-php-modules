@@ -1,3 +1,0 @@
-ls /etc/php/*/mods-available/  -1 | sed -e 's/\.ini$//' | xargs phpdismod -v ALL -s ALL 
-
-
