@@ -36,7 +36,7 @@ override_dh_auto_clean:
 
 override_dh_auto_build:
 	git clone https://github.com/sebastianbergmann/php-token-stream.git
-	wget http://get.sensiolabs.org/php-cs-fixer.phar -O bin/php-cs-fixer
+	wget https://github.com/FriendsOfPHP/PHP-CS-Fixer/releases/download/v2.18.1/php-cs-fixer.phar -O bin/php-cs-fixer
 	wget https://phar.phpunit.de/phpcpd.phar -O bin/phpcpd
 	wget https://github.com/phpstan/phpstan/releases/download/0.10.5/phpstan.phar -O bin/phpstan
 	chmod +x bin/*

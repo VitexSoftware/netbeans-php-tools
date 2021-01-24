@@ -1,4 +1,4 @@
-netbeans-php-tools (1.6) UNRELEASED; urgency=medium
+netbeans-php-tools (1.7) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * apigen removed
@@ -16,8 +16,10 @@ netbeans-php-tools (1.6) UNRELEASED; urgency=medium
   * Release v1.4
   * Phpstan updated
   * installphp rework
+  * usephp commads moved to new package php-tools
+  * usephp commads moved to new package php-tools
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Thu, 29 Oct 2020 21:22:12 +0100
+ -- CyberVitexus <vitex@exiv.jinonice.czf>  Sun, 24 Jan 2021 03:32:33 +0100
 
 netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
