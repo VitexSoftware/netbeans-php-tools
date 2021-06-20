@@ -5,7 +5,7 @@ netbeans-php-tools
 
 Debian package that contains tools for full value PHP development using netbeans
 
- * Apache Netbeans 11
+ * Apache Netbeans 13
  * Firefox Developers Edition
  * xdebug http://www.xdebug.org/
  * Codeception http://codeception.com/
