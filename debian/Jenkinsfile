@@ -54,6 +54,7 @@ distributions.each {
             stage('Test ' + distribution) {
                 buildImage.inside {
                     def debconf_debug = 0 //Set to "5" or "developer" to debug debconf
+                    sh 'wget -qO- https://repo.vitexsoftware.com/keyring.gpg | sudo tee /etc/apt/trusted.gpg.d/vitexsoftware.gpg'
                     sh 'echo "deb [signed-by=/etc/apt/trusted.gpg.d/vitexsoftware.gpg]  https://repo.vitexsoftware.com  borrow main" | sudo tee /etc/apt/sources.list.d/borrow.list'
                     sh 'cd $WORKSPACE/dist/debian/ ; dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz; cd $WORKSPACE'
                     sh 'echo "deb [trusted=yes] file://///$WORKSPACE/dist/debian/ ./" | sudo tee /etc/apt/sources.list.d/local.list'
