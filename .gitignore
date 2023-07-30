@@ -12,3 +12,7 @@
 /phpunit-skelgen
 /php-cs-fixer
 /debian/netbeans-php-tools.substvars
+debian/debhelper-build-stamp
+/debian/.debhelper/
+/debian/files
+debian/netbeans-php-tools.debhelper.log
