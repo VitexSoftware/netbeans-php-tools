@@ -62,7 +62,7 @@ Installation:
    automatically. In other cases please restart your webserver by hand.
 
 3) in firefox open [about:config](about:config) and if not exists create new boolean key
-   **network.protocol-handler.expose.netbeans** with **false** value.
+   `network.protocol-handler.expose.netbeans` with **false** value.
    or copy file [user.js](user.js) to your browser profile directory 
 
    ```
@@ -109,6 +109,8 @@ Commands included
  * **usephp-7.3** - swith current webserver and commandline php to php7.3
  * **usephp-7.4** - swith current webserver and commandline php to php7.4 
  * **usephp-8.0** - swith current webserver and commandline php to php8.0 
+ * **usephp-8.1** - swith current webserver and commandline php to php8.1 
+ * **usephp-8.2** - swith current webserver and commandline php to php8.2 
 
  * **netbeans-incubating-installer** - download && install current incubating 
  * **phar-composer** - transform php project to phar archive
