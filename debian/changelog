@@ -1,4 +1,4 @@
-netbeans-php-tools (1.7) UNRELEASED; urgency=medium
+netbeans-php-tools (1.8) UNRELEASED; urgency=medium
 
   [ Vítězslav Dvořák ]
   * apigen removed
@@ -19,7 +19,10 @@ netbeans-php-tools (1.7) UNRELEASED; urgency=medium
   * usephp commads moved to new package php-tools
   * usephp commads moved to new package php-tools
 
- -- CyberVitexus <vitex@exiv.jinonice.czf>  Sun, 24 Jan 2021 03:32:33 +0100
+  [ vitex ]
+  * Desktopr file and metainfo added for nbxdebug
+
+ -- vitex <info@vitexsoftware.cz>  Thu, 31 Aug 2023 22:50:35 +0200
 
 netbeans-php-tools (0.8) UNRELEASED; urgency=medium
 
