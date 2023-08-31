@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Encoding=UTF-8
+Name=Apache NetBeans
+Exec=/usr/bin/netbeans
+Icon=apache-netbeans
+Categories=Development;Java;IDE;
+Version=1.0
+Type=Application
+Terminal=false
+StartupWMClass=Apache NetBeans IDE 18
