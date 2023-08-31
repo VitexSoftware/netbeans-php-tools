@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+<mime-type type="x-scheme-handler/netbeans">
+    <comment>Open file on given line in NetNetbean</comment>
+    <comment xml:lang="cz">Otevře soubor na daném řádku v NetBeans</comment>
+</mime-type>
+</mime-info>
