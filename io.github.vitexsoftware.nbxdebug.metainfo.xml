@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="console-application">
+  <id>io.github.vitexsoftware.nbxdebug</id>
+  
+  <name>NetBeans XDebug helper</name>
+  <summary>lauch netbeans by click on xdebug link</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  
+  <description>
+    <p>
+      Helper for<code>xdebug.file_link_format = &quot;netbeans://%f?line=%l&quot;</code>
+    </p>
+    <p>
+      
+    </p>
+  </description>
+  
+  <icon type="stock">nbxdebug</icon>
+  
+  <categories>
+    <category>Development</category>
+    <category>IDE</category>
+  </categories>
+  
+  <provides>
+    <binary>nbxdebug</binary>
+  </provides>
+</component>
+

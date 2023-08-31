@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+
+-->
+
+<svg:svg
+   width="444px"
+   height="512px"
+   viewBox="0 0 444 512"
+   version="1.1"
+   id="svg23"
+   sodipodi:docname="nbxdebug.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <svg:defs
+     id="defs27" />
+  <sodipodi:namedview
+     id="namedview25"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="18.440678"
+     inkscape:cy="257.08475"
+     inkscape:window-width="1920"
+     inkscape:window-height="1130"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg23" />
+  <svg:title
+     id="title2">Apache NetBeans Logo</svg:title>
+  <svg:description>Apache NetBeans Logo</svg:description>
+  <svg:g
+     id="logo"
+     stroke-width="0"
+     fill="none"
+     fill-rule="evenodd">
+    <svg:path
+       d="M222,0 L222,99 L86,178 L0,128 L222,0 Z"
+       fill="#A1C535"
+       id="path4" />
+    <svg:path
+       d="M444,128 L358,178 L222,99 L222,0 L444,128 L444,128 Z"
+       fill="#ADD439"
+       id="path6" />
+    <svg:path
+       d="M444,384 L358,334 L358,178 L444,128 L444,384 L444,384 Z"
+       fill="#1B6AC6"
+       id="path8" />
+    <svg:path
+       d="M222,512 L222,413 L358,334 L444,384 L222,512 L222,512 Z"
+       fill="#2E90E8"
+       id="path10" />
+    <svg:path
+       d="M0,384 L86,334 L222,413 L222,512 L0,384 L0,384 Z"
+       fill="#EA205E"
+       id="path12" />
+    <svg:path
+       d="M0,128 L86,178 L86,334 L0,384 L0,128 L0,128 Z"
+       fill="#A5073E"
+       id="path14" />
+    <svg:path
+       d="M86,178 L222,99 L358,178 L222,256 L86,178 Z"
+       fill="#F1F6E2"
+       id="path16" />
+    <svg:path
+       d="M222,256 L358,178 L358,334 L222,413 L222,256 Z"
+       fill="#CEDBE6"
+       id="path18" />
+    <svg:path
+       d="M86,178 L222,256 L222,413 L86,334 L86,178 Z"
+       fill="#FFFFFF"
+       id="path20" />
+  </svg:g>
+  <script />
+  <svg:g
+     fill="none"
+     fill-rule="evenodd"
+     stroke="#ffffff"
+     id="g61"
+     transform="translate(46.7,165.5)">
+    <svg:g
+       transform="translate(5,5)"
+       id="g55">
+      <svg:path
+         fill="#317e1e"
+         fill-rule="nonzero"
+         stroke-width="5"
+         d="m 127.9,85.5 68.2,70.7 0.4,17.3 h -38.6 l -60.8,-59.7 -60,59.7 h -39 V 155.9 L 67.8,86.1 -1.8,14.9 V -2.5 h 38.7 l 60.2,60 61,-60 h 38.3 v 16 z"
+         id="path31" />
+      <svg:circle
+         cx="75.900002"
+         cy="74.599998"
+         r="3.5"
+         stroke-opacity="0.8"
+         stroke-width="4"
+         id="circle33" />
+      <svg:circle
+         cx="105.1"
+         cy="85"
+         r="3.5"
+         stroke-opacity="0.8"
+         stroke-width="4"
+         id="circle35" />
+      <svg:circle
+         cx="158.39999"
+         cy="15"
+         r="3.5"
+         stroke-opacity="0.8"
+         stroke-width="4"
+         id="circle37" />
+      <svg:circle
+         cx="50.900002"
+         cy="140"
+         r="3.5"
+         stroke-opacity="0.8"
+         stroke-width="4"
+         id="circle39" />
+      <svg:circle
+         cx="180.39999"
+         cy="158.5"
+         r="3.5"
+         stroke-opacity="0.8"
+         stroke-width="4"
+         id="circle41" />
+      <svg:path
+         stroke-linecap="square"
+         stroke-linejoin="round"
+         stroke-width="4"
+         d="M 32.6,158.2 42,149 m 62.3,-79.9 49.4,-49.4"
+         id="path43" />
+      <svg:path
+         stroke-linejoin="round"
+         stroke-width="4"
+         d="M 102.3,82.7 30.3,10 H 11.2 m 156.2,0 H 183 M 11.2,160.7 90.4,82.7"
+         id="path45" />
+      <svg:path
+         stroke-linejoin="round"
+         stroke-opacity="0.7"
+         stroke-width="4"
+         d="M 116.3,74.6 181,10"
+         id="path47" />
+      <svg:path
+         stroke-linejoin="round"
+         stroke-width="4"
+         d="M 20.7,19.7 73.4,72.3"
+         id="path49" />
+      <svg:path
+         stroke-linejoin="round"
+         stroke-opacity="0.7"
+         stroke-width="4"
+         d="m 116.3,96.7 32,32"
+         id="path51" />
+      <svg:path
+         stroke-linejoin="round"
+         stroke-width="4"
+         d="m 155.2,133.6 22.1,22 M 53.6,137.5 97,94.9 l 67.1,66.6 h 4.9"
+         id="path53" />
+    </svg:g>
+    <svg:g
+       fill="#000000"
+       fill-rule="nonzero"
+       stroke-width="4"
+       id="g59">
+      <svg:path
+         d="M 158.3,107.7 V 72.9 c 0,-0.5 0,-0.5 -0.8,-0.5 -0.7,0 -0.7,0 -0.7,0.6 v 34.7 c 0,0.6 0,0.5 0.7,0.5 0.8,0 0.7,0 0.7,-0.5 z m 3.9,11.2 a 22.5,22.5 0 0 1 -20,-0.7 c -3.4,-2 -5.2,-4.8 -5.2,-8.4 V 69.6 c 0,-3 1.5,-5.6 4.3,-7.4 a 17,17 0 0 1 9.2,-2.4 c 3,0 5.6,0.3 7.7,1 V 47 H 178 v 73 H 163 Z M 200.9,84 V 73.2 c 0,-0.8 0,-0.8 -0.8,-0.8 -0.8,0 -0.8,0 -0.8,0.8 V 84 Z m -1.6,12.5 v 11 c 0,0.7 0,0.7 0.8,0.7 0.7,0 0.8,0 0.8,-0.8 V 97.2 h 19.8 v 10.4 c 0,8.9 -7.3,13.2 -20.7,13.2 -13.3,0 -20.5,-4.5 -20.5,-13.7 V 73.6 c 0,-9.2 7.2,-13.8 20.5,-13.8 13.4,0 20.7,4.4 20.7,13.4 v 23.3 z m 44,11.2 V 73 c 0,-0.6 0,-0.6 -0.7,-0.6 -0.8,0 -0.8,0 -0.8,0.5 v 34.8 c 0,0.6 0,0.5 0.8,0.5 0.7,0 0.7,0 0.7,-0.5 z m -5.4,11.1 -0.9,1.3 H 222 V 47 h 19.8 v 13.8 c 2.1,-0.7 4.7,-1 7.9,-1 3.1,0 6.1,0.8 8.8,2.3 3,1.6 4.6,4.2 4.6,7.5 v 40.2 c 0,3.6 -1.8,6.4 -5.3,8.4 a 22.5,22.5 0 0 1 -19.9,0.6 z m 47.9,0.9 c -2.1,0.8 -4.7,1.1 -7.8,1.1 a 17,17 0 0 1 -9.1,-2.4 c -2.8,-1.7 -4.4,-4.2 -4.4,-7.2 v -51 h 19.8 v 47.5 c 0,0.6 0,0.5 0.8,0.5 0.7,0 0.7,0 0.7,-0.4 V 60 h 19.8 v 60 h -19.8 v -0.4 z m 42.5,-11.4 V 73 c 0,-0.6 0,-0.6 -0.7,-0.6 -0.8,0 -0.8,0 -0.8,0.6 v 35 c 0,0.6 0,0.6 0.8,0.6 0.7,0 0.7,0 0.7,-0.4 z m -0.9,11.8 c -2,0.5 -4.2,0.7 -6.9,0.7 a 17,17 0 0 1 -9.1,-2.4 c -2.9,-1.7 -4.4,-4.2 -4.4,-7.2 V 71 c 0,-7.4 5.2,-11.2 14.6,-11.2 2.3,0 5,0.7 8.3,2 l 1.7,-1.7 H 348 v 57.3 c 0,4.4 -1,9.5 -2.8,12 -2.1,3.2 -7.7,4.5 -17,4.5 h -18.4 v -12 h 14.9 c 1.1,0 2,-0.7 2.7,-1.8 z"
+         id="path57" />
+    </svg:g>
+  </svg:g>
+  <svg:metadata
+     id="metadata303">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Apache NetBeans Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+</svg:svg>

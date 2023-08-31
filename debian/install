@@ -7,3 +7,8 @@ php-token-stream/src/*.php /usr/share/php/Token
 netbeans-php-config.zip /usr/share/doc/netbeans-php-tools
 README.md /usr/share/doc/netbeans-php-tools
 nbm/com-vitexsoftware-phpswitch.nbm	usr/share/netbeans/plugins
+
+nbxdebug.svg	/usr/share/icons/hicolor/scalable/apps/
+io.github.vitexsoftware.nbxdebug.metainfo.xml   /usr/share/metainfo/
+io.github.vitexsoftware.nbxdebug.desktop    /usr/share/applications/
+
