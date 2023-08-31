@@ -128,4 +128,7 @@ Plugins Included
 
 * PHP Version switcher https://github.com/VitexSoftware/netbeans-php-switcher
 
+
+
+xdg-mime install /usr/share/mime/application/x-netbeans.xml
 xdg-mime default nbxdebug.desktop x-scheme-handler/netbeans
