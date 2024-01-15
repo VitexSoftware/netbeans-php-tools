@@ -5,7 +5,6 @@ netbeans-php-tools
 
 Debian package that contains tools for full value PHP development using netbeans
 
-* Apache Netbeans 18
 * Firefox Developers Edition
 * xdebug http://www.xdebug.org/
 * Codeception http://codeception.com/
@@ -25,19 +24,12 @@ Debian package that contains tools for full value PHP development using netbeans
 Installation
 ------------
 
-1) NetBeans requires for some functionality Oracle version of JDK. There is 
-   [Debian way ho to make well](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html).
-   Next [Download netbeans](https://netbeans.org/downloads/) and install it. 
-
-    wget https://www.apache.org/dyn/closer.cgi/netbeans/netbeans/11.3/Apache-NetBeans-11.3-bin-linux-x64.sh ;  gksudo sh ./Apache-NetBeans-11.3-bin-linux-x64.sh
-
-2)  Make your own debian package build using netbeans-php-tools.sh script
-    or **install Debian package by [Vitex Software](https://www.vitexsoftware.cz/repos.php)**:
+Grab and install Current NetBeans https://netbeans.apache.org/front/main/download/
 
 ```shell
 sudo apt install lsb-release wget
-echo "deb http://repo.vitexsoftware.cz $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
-sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.cz/keyring.gpg
+echo "deb http://repo.vitexsoftware.com $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/vitexsoftware.list
+sudo wget -O /etc/apt/trusted.gpg.d/vitexsoftware.gpg http://repo.vitexsoftware.com/keyring.gpg
 sudo apt update
 sudo apt install netbeans-php-tools
 ```
@@ -47,13 +39,12 @@ sudo apt install netbeans-php-tools
    and /etc/php/*/mods-available/xdebug.ini by adding this lines:
 
 ```ini
-    xdebug.remote_enable = 1
-    xdebug.remote_handler=dbgp
-    xdebug.remote_mode=req
-    xdebug.remote_host=127.0.0.1
-    xdebug.remote_port=9000
-    xdebug.file_link_format = "netbeans://%f?line=%l"
-    xdebug.profiler_enable = 0
+zend_extension=xdebug.so
+xdebug.mode = debug,develop,coverage
+xdebug.client_host=localhost
+xdebug.client_port=9003
+xdebug.idekey="netbeans-xdebug"
+xdebug.file_link_format = "netbeans://%f?line=%l"
 ```
 
    This may be ok for fresh system. In other cases Please review and control 
