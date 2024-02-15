@@ -10,7 +10,8 @@ Vcs-Browser: https://github.com/Vitexus/netbeans-php-tools
 
 Package: netbeans-php-tools
 Architecture: all
-Depends: ${misc:Depends},netbeans | apache-netbeans ,pear-channels,php-cli, php-xdebug, phpunit, composer, phpmd, pdepend, firefoxdriver|ruby-chromedriver-helper,firefox-nightly,phing,php-codesniffer, dialog, phpunit-skelgen,phar-composer, php-tools
+Depends: ${misc:Depends},netbeans | apache-netbeans ,pear-channels,php-cli, php-xdebug, phpunit, composer, phpmd, pdepend, firefoxdriver|ruby-chromedriver-helper,phing,php-codesniffer, dialog, phpunit-skelgen,phar-composer, php-tools
+Recommends: firefox-nightly
 Description: Various supporting tools for full value PHP development.
  Netbeans give you powerful IDE for all kinds of good practices
  testing, profiling, documentation, code coverage etc.
