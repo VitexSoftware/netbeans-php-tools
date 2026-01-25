@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.vitexsoftware.netbeans_php_tools</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>netbeans-php-tools</name>
+  <summary>Various supporting tools for full value PHP development.</summary>
+  <description>
+    <p>
+      Netbeans give you powerful IDE for all kinds of good practices testing, profiling, documentation, code coverage etc.
+    </p>
+  </description>
+  <categories>
+    <category>Utility</category>
+  </categories>
+  <url type="homepage">https://github.com/VitexSoftware/netbeans-php-tools</url>
+  <url type="bugtracker">https://github.com/VitexSoftware/netbeans-php-tools/issues</url>
+  <developer id="cz.vitexsoftware">
+    <name>VitexSoftware</name>
+  </developer>
+  <content_rating type="oars-1.1"/>
+</component>
