@@ -10,15 +10,11 @@
   
   <description>
     <p>
-      Helper for<code>xdebug.file_link_format = &quot;netbeans://%f?line=%l&quot;</code>
-    </p>
-    <p>
-      
+      Helper for<code>xdebug.file_link_format = &quot;netbeans://%f?line=%l&quot;</code> </p> <p>
     </p>
   </description>
   
   <icon type="stock">nbxdebug</icon>
-  
   <categories>
     <category>Development</category>
     <category>IDE</category>
