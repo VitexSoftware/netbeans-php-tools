@@ -9,7 +9,7 @@ Debian package that contains tools for full value PHP development using netbeans
 * xdebug http://www.xdebug.org/
 * Codeception http://codeception.com/
 * php Depend http://pdepend.org/
-* php Code Sniffer https://github.com/squizlabs/PHP_CodeSniffer
+* php Code Sniffer https://github.com/PHPCSStandards/PHP_CodeSniffer
 * coding Standarts Fixer https://github.com/FriendsOfPhp/PHP-CS-Fixer
 * Mess Detector http://phpmd.org/
 * Composer https://getcomposer.org/
