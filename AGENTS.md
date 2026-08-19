@@ -1,4 +1,4 @@
-# WARP.md - Working AI Reference for netbeans-php-tools
+# AGENTS.md - Working AI Reference for netbeans-php-tools
 
 ## Project Overview
 **Type**: Node.js Project/Debian Package
